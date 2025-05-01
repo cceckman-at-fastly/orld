@@ -1,0 +1,15 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
+
+authors = ["charles.eckman@fastly.com"]
+cloned_from = "https://github.com/fastly/compute-starter-kit-rust-empty"
+description = "Caching is difficult"
+language = "rust"
+manifest_version = 3
+name = "cceckman-testing"
+service_id = "LxpCA1rRPTByLbZevPcob2"
+
+[local_server]
+
+[scripts]
+  build = "cargo build --profile release"
